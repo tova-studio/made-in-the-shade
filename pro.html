@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en-NZ">
+<head><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; img-src * data: blob:; media-src data:; connect-src 'none'; form-action 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Made in the Shade | Women's Fashion Boutique, Christchurch</title>
+<meta name="description" content="Made in the Shade is a women's fashion boutique at 151A Colombo Street, Beckenham, Christchurch, stocking Vassalli, Bittermoon, Lisette and more.">
+<meta name="theme-color" content="#3b3b3b">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_NZ">
+<meta property="og:site_name" content="Made in the Shade">
+<meta property="og:title" content="Made in the Shade | Women's Fashion Boutique, Christchurch">
+<meta property="og:description" content="A women's fashion boutique at 151A Colombo Street, Beckenham, Christchurch, stocking Vassalli, Bittermoon, Lisette and more.">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Courier+Prime:wght@400;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js');</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": ["LocalBusiness", "ClothingStore"],
+  "name": "Made in the Shade",
+  "description": "Women's fashion boutique in Beckenham, Christchurch.",
+  "url": "http://www.madeintheshadefashions.co.nz/",
+  "telephone": "+64 3 982 1759",
+  "email": "ali@madeintheshadefashions.co.nz",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "151A Colombo Street",
+    "addressLocality": "Beckenham, Christchurch",
+    "postalCode": "8023",
+    "addressCountry": "NZ"
+  },
+  "areaServed": "Christchurch",
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:30", "closes": "17:30"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "16:00"}
+  ],
+  "sameAs": ["https://www.facebook.com/377518835444207"]
+}
+</script>
+<style>
+:root{
+  --ink:#1d1d1d;
+  --char:#3b3b3b;
+  --char-deep:#262626;
+  --grey:#595959;
+  --line:#d9d9d9;
+  --mist:#f4f4f3;
+  --white:#ffffff;
+  --serif:"Cormorant Garamond", Georgia, "Times New Roman", serif;
+  --sans:"Jost", "Helvetica Neue", Arial, sans-serif;
+  --mono:"Courier Prime", "Courier New", Courier, monospace;
+  --wrap:1180px;
+  --header-h:76px;
+  --shadow:0 1px 2px rgba(0,0,0,.06), 0 12px 32px -12px rgba(0,0,0,.18);
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--header-h) + 12px);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--sans);font-size:1.0625rem;line-height:1.7;color:var(--ink);background:var(--white);overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.12;margin:0 0 .5em;color:var(--ink)}
+h2{font-size:clamp(2rem,4.2vw,2.9rem)}
+h3{font-size:clamp(1.45rem,2.4vw,1.75rem)}
+p{margin:0 0 1.1em}
+ul{margin:0;padding:0;list-style:none}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:2px}
+.on-dark :focus-visible{outline-color:#fff}
+.wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 clamp(1.1rem,4vw,2rem)}
+.skip{position:absolute;left:1rem;top:-100px;background:var(--ink);color:#fff;padding:.75rem 1rem;z-index:200;text-decoration:none}
+.skip:focus{top:1rem}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* charcoal stone texture, echoing the original site's bars */
+.texture{
+  background-color:var(--char-deep);
+  background-image:
+    radial-gradient(rgba(255,255,255,.05) 1px, transparent 1.2px),
+    radial-gradient(rgba(0,0,0,.25) 1px, transparent 1.2px),
+    linear-gradient(180deg,#3b3b3b,#262626);
+  background-size:5px 5px,7px 7px,100% 100%;
+  background-position:0 0,2px 3px,0 0;
+}
+
+/* tab label: a nod to the original LOCATION / HOURS / LABELS tabs */
+.tab{display:inline-flex;align-items:center;gap:.6rem;font-family:var(--mono);font-size:.875rem;letter-spacing:.14em;text-transform:uppercase;color:#ececec;padding:.45rem 1rem .45rem .7rem;border-radius:6px;margin-bottom:1.1rem;box-shadow:inset 0 1px 0 rgba(255,255,255,.08), 0 2px 6px -2px rgba(0,0,0,.35)}
+.tab::before{content:"";width:0;height:0;border-left:7px solid #ececec;border-top:5px solid transparent;border-bottom:5px solid transparent;flex:none}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.55rem;min-height:48px;padding:.7rem 1.4rem;font-family:var(--sans);font-weight:500;font-size:1rem;letter-spacing:.04em;text-decoration:none;border-radius:2px;border:1px solid var(--ink);transition:background-color .2s ease,color .2s ease}
+.btn svg{width:18px;height:18px;flex:none}
+.btn-dark{background:var(--ink);color:#fff}
+.btn-dark:hover{background:var(--char)}
+.btn-line{background:transparent;color:var(--ink)}
+.btn-line:hover{background:var(--ink);color:#fff}
+.btn-light{background:#fff;color:var(--ink);border-color:#fff}
+.btn-light:hover{background:var(--line)}
+.btn-ghost-light{background:transparent;color:#fff;border-color:rgba(255,255,255,.7)}
+.btn-ghost-light:hover{background:#fff;color:var(--ink)}
+
+/* header */
+.site-header{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.97);border-bottom:1px solid var(--line)}
+.texture-strip{height:6px}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:70px;position:relative}
+.brand{display:flex;flex-direction:column;text-decoration:none;line-height:1;padding:.35rem 0}
+.brand-name{font-family:var(--serif);font-weight:600;font-size:clamp(1.3rem,3.6vw,1.75rem);letter-spacing:.01em;color:var(--ink)}
+.brand-tag{font-family:var(--mono);font-size:.75rem;letter-spacing:.24em;text-transform:uppercase;color:var(--grey);margin-top:.35rem}
+.primary-nav ul{display:flex;align-items:center;gap:.25rem}
+.primary-nav a{display:flex;align-items:center;min-height:44px;padding:0 .8rem;text-decoration:none;font-size:.95rem;letter-spacing:.06em;color:var(--char);position:relative}
+.primary-nav a::after{content:"";position:absolute;left:.8rem;right:.8rem;bottom:8px;height:1px;background:var(--ink);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}
+.primary-nav a:hover::after{transform:scaleX(1)}
+.header-actions{display:flex;align-items:center;gap:.5rem}
+.header-call{min-height:44px;padding:.5rem 1rem;font-size:.95rem}
+.header-call .long{display:inline}
+.header-call .short{display:none}
+.menu-toggle{display:none;align-items:center;justify-content:center;width:46px;height:46px;border:1px solid var(--line);background:#fff;border-radius:2px;cursor:pointer;color:var(--ink)}
+.menu-toggle .bars,.menu-toggle .bars::before,.menu-toggle .bars::after{display:block;width:20px;height:2px;background:currentColor;position:relative;transition:transform .2s ease,background-color .2s ease}
+.menu-toggle .bars::before,.menu-toggle .bars::after{content:"";position:absolute;left:0}
+.menu-toggle .bars::before{top:-6px}
+.menu-toggle .bars::after{top:6px}
+.menu-toggle[aria-expanded="true"] .bars{background:transparent}
+.menu-toggle[aria-expanded="true"] .bars::before{transform:translateY(6px) rotate(45deg)}
+.menu-toggle[aria-expanded="true"] .bars::after{transform:translateY(-6px) rotate(-45deg)}
+
+/* hero */
+.hero{position:relative;padding:clamp(2.25rem,6vw,5.5rem) 0 clamp(3rem,7vw,6rem);background:linear-gradient(180deg,#fff 0%,var(--mist) 100%);overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:clamp(2rem,5vw,4.5rem);align-items:center}
+.eyebrow{font-family:var(--mono);font-size:.875rem;letter-spacing:.2em;text-transform:uppercase;color:var(--grey);margin-bottom:1rem}
+.hero h1{font-size:clamp(2.9rem,8vw,5.6rem);font-weight:600;letter-spacing:-.01em;margin-bottom:.15em}
+.hero h1 em{font-style:italic;font-weight:500}
+.hero-sub{font-family:var(--mono);text-transform:uppercase;letter-spacing:.28em;font-size:clamp(.85rem,1.6vw,1rem);color:var(--char);margin:0 0 1.6rem;padding-bottom:1.4rem;border-bottom:1px solid var(--line);max-width:30rem}
+.hero-lead{font-size:clamp(1.08rem,1.6vw,1.2rem);color:#333;max-width:34rem}
+.hero-actions{display:flex;flex-wrap:wrap;gap:.75rem;margin:1.8rem 0 1.4rem}
+.hero-meta{display:flex;flex-wrap:wrap;gap:.4rem 1.6rem;font-size:.98rem;color:var(--grey)}
+.hero-meta a{color:var(--grey);text-underline-offset:3px;display:inline-flex;align-items:center;min-height:44px}
+.hero-meta span{display:inline-flex;align-items:center;min-height:32px}
+.hero-meta strong{color:var(--ink);font-weight:500;margin-right:.35rem}
+
+/* shade panel: CSS imagery echoing the soft blurred grey masthead photo */
+.shade{position:relative;aspect-ratio:4/5;border-radius:2px;box-shadow:var(--shadow);overflow:hidden;
+  background:
+    radial-gradient(ellipse 40% 26% at 18% 14%, rgba(55,55,55,.55), transparent 70%),
+    radial-gradient(ellipse 34% 40% at 88% 28%, rgba(85,85,85,.5), transparent 70%),
+    radial-gradient(ellipse 26% 18% at 55% 40%, rgba(255,255,255,.7), transparent 70%),
+    radial-gradient(ellipse 50% 26% at 62% 70%, rgba(40,40,40,.45), transparent 70%),
+    radial-gradient(ellipse 30% 22% at 12% 62%, rgba(110,110,110,.45), transparent 70%),
+    linear-gradient(160deg,#ededed 0%,#d3d3d3 45%,#bdbdbd 100%);
+}
+.shade::after{content:"";position:absolute;inset:14px;border:1px solid rgba(255,255,255,.7);pointer-events:none}
+.shade-word{position:absolute;left:clamp(1.4rem,3vw,2.2rem);top:clamp(1.4rem,3vw,2.2rem);right:clamp(1.4rem,3vw,2.2rem);margin:0;font-family:var(--mono);font-weight:700;font-size:clamp(1.9rem,3.8vw,2.9rem);line-height:1.02;letter-spacing:.04em;text-transform:uppercase;color:#111}
+.shade-word small{display:block;text-align:right;font-weight:400;font-size:clamp(.8rem,1.3vw,.95rem);letter-spacing:.2em;margin-top:.9rem;color:#1d1d1d}
+.feature-card{position:absolute;left:clamp(1.1rem,3vw,1.75rem);right:clamp(1.1rem,3vw,1.75rem);bottom:clamp(1.1rem,3vw,1.75rem);background:#fff;padding:1.3rem 1.4rem 1.1rem;box-shadow:var(--shadow)}
+.feature-card .label{font-family:var(--mono);font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:var(--grey);margin-bottom:.5rem}
+.feature-card ul li{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.65rem 0;border-top:1px solid var(--line);font-family:var(--serif);font-size:1.3rem;font-weight:500;line-height:1.25}
+.feature-card ul li:first-child{border-top:0}
+.feature-card img{width:117px;height:33px;flex:none}
+
+/* sections */
+.section{padding:clamp(3.5rem,8vw,6.5rem) 0}
+.section-head{max-width:44rem;margin-bottom:clamp(2rem,4vw,3rem)}
+.section-head p{color:#3a3a3a;font-size:1.1rem;margin-bottom:0}
+.rule{display:block;width:56px;height:1px;background:var(--ink);margin:1.2rem 0 1.4rem}
+
+/* about */
+.about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:clamp(2rem,5vw,4.5rem);align-items:start}
+.about-text p{font-size:1.1rem;color:#2f2f2f}
+.about-text a{text-underline-offset:3px}
+.about-text .drop::first-letter{font-family:var(--serif);font-size:3.6em;float:left;line-height:.85;padding:.08em .12em 0 0;font-weight:600}
+.panel{background:var(--mist);border:1px solid var(--line);padding:clamp(1.4rem,3vw,2rem)}
+.panel h3{margin-bottom:.4rem}
+.panel dl{margin:0}
+.panel dt{font-family:var(--mono);font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--grey);margin-top:1.1rem}
+.panel dd{margin:.2rem 0 0;font-size:1.05rem}
+.panel a{text-underline-offset:3px;display:inline-block;padding:.2rem 0}
+
+/* collections */
+.collections{background:var(--mist);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.coll-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(1.2rem,3vw,2rem)}
+.coll{background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);display:flex;flex-direction:column}
+.coll-top{color:#fff;padding:1.6rem clamp(1.3rem,3vw,2rem) 1.4rem}
+.coll-top h3{color:#fff;margin:0}
+.coll-top p{margin:.35rem 0 0;font-family:var(--mono);font-size:.85rem;letter-spacing:.18em;text-transform:uppercase;color:#d9d9d9}
+.coll ul{padding:.6rem clamp(1.3rem,3vw,2rem) 1.4rem}
+.coll li{display:flex;justify-content:space-between;align-items:baseline;gap:1rem;padding:.7rem 0;border-bottom:1px solid var(--line);font-size:1.05rem}
+.coll li:last-child{border-bottom:0}
+.coll li span{font-family:var(--mono);font-size:.8rem;letter-spacing:.12em;text-transform:uppercase;color:var(--grey);text-align:right}
+.spotlights{display:grid;grid-template-columns:repeat(2,1fr);gap:clamp(1.2rem,3vw,2rem);margin-top:clamp(1.2rem,3vw,2rem)}
+.spot{display:flex;align-items:center;gap:1.4rem;padding:1.5rem clamp(1.3rem,3vw,2rem);background:#fff;border:1px solid var(--line)}
+.spot-mark{flex:none;display:flex;align-items:center;justify-content:center;width:150px;min-height:72px;border:1px solid var(--line);background:#fff}
+.spot-mark.vassalli{background:#111;color:#fff;font-family:var(--sans);font-weight:500;letter-spacing:.32em;font-size:1rem;padding-left:.32em;border-color:#111}
+.spot h3{margin:0 0 .2rem;font-size:1.45rem}
+.spot p{margin:0;color:var(--grey);font-size:.98rem}
+
+/* labels wall */
+.labels-wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.labels-wall li{display:flex;align-items:center;justify-content:center;text-align:center;min-height:104px;padding:1rem;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff;color:var(--ink);transition:background-color .25s ease}
+.labels-wall li:hover{background:var(--mist)}
+.labels-wall li:nth-child(4n+1){font-family:var(--serif);font-style:italic;font-size:1.45rem;font-weight:500}
+.labels-wall li:nth-child(4n+2){font-family:var(--sans);text-transform:uppercase;letter-spacing:.22em;font-size:.92rem;font-weight:500}
+.labels-wall li:nth-child(4n+3){font-family:var(--serif);font-size:1.35rem;font-weight:600;letter-spacing:.02em}
+.labels-wall li:nth-child(4n+4){font-family:var(--mono);text-transform:uppercase;letter-spacing:.14em;font-size:.92rem}
+.labels-wall li.dark{background:var(--char-deep);color:#fff}
+.labels-wall li.dark:hover{background:#111}
+.labels-wall li.logo-tile img{width:117px;height:33px}
+.labels-note{margin:1.6rem 0 0;color:var(--grey);font-size:1rem}
+.labels-note a{color:var(--ink);text-underline-offset:3px}
+
+/* visit */
+.visit{color:#ececec}
+.visit h2,.visit h3{color:#fff}
+.visit .section-head p{color:#d9d9d9}
+.visit-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(1.2rem,3vw,2rem)}
+.vcard{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.16);padding:clamp(1.4rem,3vw,2rem)}
+.vcard h3{font-size:1.55rem;margin-bottom:.8rem}
+.vcard p,.vcard li{color:#e6e6e6;font-size:1.05rem}
+.vcard address{font-style:normal}
+.vcard a{color:#fff;text-underline-offset:4px}
+.vcard .big{font-family:var(--serif);font-size:1.55rem;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
+.vcard .big:hover{text-decoration:underline}
+.vcard .sub{font-family:var(--mono);font-size:.8rem;letter-spacing:.16em;text-transform:uppercase;color:#cfcfcf;display:block}
+.vcard .line-link{display:inline-flex;align-items:center;min-height:44px;overflow-wrap:anywhere}
+.vcard .stack{margin:0 0 .5rem}
+.hours li{display:flex;justify-content:space-between;gap:1rem;padding:.6rem 0;border-bottom:1px solid rgba(255,255,255,.14)}
+.hours li:last-child{border-bottom:0}
+.vcard .btn{margin-top:.6rem}
+.visit-actions{display:flex;flex-wrap:wrap;gap:.75rem;margin-top:clamp(2rem,4vw,2.8rem)}
+
+/* faq */
+.faq-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0 clamp(2rem,5vw,4rem)}
+.faq-item{padding:1.6rem 0;border-top:1px solid var(--line)}
+.faq-item h3{font-size:1.55rem;margin-bottom:.5rem}
+.faq-item p{margin:0;color:#333}
+.faq-item a{text-underline-offset:3px}
+
+/* footer */
+.site-footer{color:#d9d9d9;padding:clamp(3rem,6vw,4rem) 0 1.5rem;font-size:1rem}
+.foot-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:2rem;padding-bottom:2rem;border-bottom:1px solid rgba(255,255,255,.15)}
+.site-footer .brand-name{color:#fff}
+.site-footer .brand-tag{color:#cfcfcf;display:block}
+.site-footer h2{font-family:var(--mono);font-size:.85rem;letter-spacing:.2em;text-transform:uppercase;color:#cfcfcf;margin:0 0 .6rem;font-weight:400}
+.site-footer ul a{color:#fff;text-decoration:none;display:inline-flex;align-items:center;min-height:44px;overflow-wrap:anywhere}
+.site-footer ul a:hover{text-decoration:underline;text-underline-offset:4px}
+.site-footer .brand{color:#fff}
+.site-footer address{font-style:normal;line-height:1.6;margin-top:1rem}
+.foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:.5rem 1.5rem;padding-top:1.3rem;font-size:.92rem;color:#cfcfcf}
+.foot-bottom p{margin:0}
+
+/* responsive */
+@media (max-width:1020px){
+  .primary-nav a{padding:0 .55rem;font-size:.9rem}
+  .header-call .long{display:none}
+  .header-call .short{display:inline}
+}
+@media (max-width:900px){
+  :root{--header-h:70px}
+  .menu-toggle{display:inline-flex}
+  .js .primary-nav{position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 16px 30px -18px rgba(0,0,0,.35);display:none}
+  .js .primary-nav.open{display:block}
+  .primary-nav ul{flex-direction:column;align-items:stretch;gap:0;padding:.5rem clamp(1.1rem,4vw,2rem) 1rem}
+  .primary-nav a{min-height:52px;font-size:1.05rem;border-bottom:1px solid var(--line);padding:0 .25rem}
+  .primary-nav li:last-child a{border-bottom:0}
+  .primary-nav a::after{display:none}
+  html:not(.js) .header-inner{flex-wrap:wrap}
+  html:not(.js) .primary-nav{width:100%}
+  .hero-grid,.about-grid{grid-template-columns:1fr}
+  .shade{aspect-ratio:auto;min-height:440px;width:100%;max-width:560px}
+  .coll-grid,.spotlights,.faq-grid{grid-template-columns:1fr}
+  .visit-grid{grid-template-columns:1fr 1fr}
+  .visit-grid .vcard:last-child{grid-column:1 / -1}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .foot-grid > div:first-child{grid-column:1 / -1}
+}
+@media (max-width:600px){
+  .brand-tag{display:none}
+  .eyebrow{font-size:.8rem;letter-spacing:.14em}
+  .hero h1{font-size:clamp(2.6rem,12vw,3.4rem)}
+  .hero-sub{margin-bottom:1.2rem;padding-bottom:1.1rem}
+  .visit-grid,.foot-grid{grid-template-columns:1fr}
+  .hero-actions .btn{flex:1 1 100%}
+  .shade{min-height:400px}
+  .shade-word{font-size:clamp(1.9rem,10vw,2.5rem)}
+  .feature-card{padding:1.1rem 1.1rem 1rem}
+  .feature-card ul li{font-size:1.2rem}
+  .spot{flex-direction:column;align-items:flex-start}
+  .labels-wall{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .labels-wall li{min-height:88px;padding:.75rem .5rem}
+  .labels-wall li:nth-child(4n+1){font-size:1.25rem}
+  .labels-wall li:nth-child(4n+2),.labels-wall li:nth-child(4n+4){font-size:.82rem;letter-spacing:.12em}
+  .labels-wall li.logo-tile img{width:100%;max-width:117px;height:auto}
+  .coll li{flex-direction:column;gap:.1rem}
+  .coll li span{text-align:left}
+}
+@media (max-width:360px){
+  .header-call{padding:.5rem .75rem}
+  .brand-name{font-size:1.18rem}
+  .feature-card ul li{flex-wrap:wrap}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important;animation:none!important}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header" id="top">
+  <div class="texture-strip texture" aria-hidden="true"></div>
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="Made in the Shade, back to top">
+      <span class="brand-name">Made in the Shade</span>
+      <span class="brand-tag">Fashion Boutique</span>
+    </a>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main">
+      <ul>
+        <li><a href="#boutique">Boutique</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#labels">Labels</a></li>
+        <li><a href="#visit">Visit</a></li>
+        <li><a href="#questions">Questions</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-dark header-call" href="tel:+6439821759" aria-label="Call Made in the Shade on 03 982 1759">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+        <span class="long">03 982 1759</span><span class="short">Call</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false">
+        <span class="bars" aria-hidden="true"></span><span class="sr-only">Menu</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Women's clothing store &middot; Christchurch</p>
+        <h1 id="hero-title">Made in <em>the</em> Shade</h1>
+        <p class="hero-sub">Fashion Boutique</p>
+        <p class="hero-lead">A women's fashion boutique at 151A Colombo Street in Beckenham, Christchurch, stocking labels such as Vassalli, Bittermoon, Lisette, Blackstone, Matisse and Not Your Daughters Jeans.</p>
+        <div class="hero-actions">
+          <a class="btn btn-dark" href="tel:+6439821759">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+            Call 03 982 1759
+          </a>
+          <a class="btn btn-line" href="mailto:ali@madeintheshadefashions.co.nz?subject=Enquiry%20for%20Made%20in%20the%20Shade">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="1"/><path d="m3 7 9 6 9-6"/></svg>
+            Email the boutique
+          </a>
+        </div>
+        <div class="hero-meta">
+          <span><strong>Mon&ndash;Fri</strong> 9.30am &ndash; 5.30pm</span>
+          <span><strong>Sat</strong> 10am &ndash; 4pm</span>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=151A+Colombo+Street%2C+Beckenham%2C+Christchurch+8023" target="_blank" rel="noopener">151A Colombo Street, Beckenham<span class="sr-only"> (opens Google Maps)</span></a>
+        </div>
+      </div>
+
+      <div class="shade" role="img" aria-label="Made in the Shade masthead in the boutique's original Courier lettering on a soft grey shaded background">
+        <p class="shade-word" aria-hidden="true">Made in<br>the Shade<small>Fashion Boutique</small></p>
+        <div class="feature-card">
+          <p class="label">Featured in the boutique</p>
+          <ul>
+            <li>Vassalli Summer 2026</li>
+            <li>The Carly Dress <img src="assets/logo.jpg" alt="Bittermoon label logo" width="117" height="33"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="boutique" aria-labelledby="boutique-title">
+    <div class="wrap about-grid">
+      <div class="about-text">
+        <span class="tab texture">Fashion Boutique</span>
+        <h2 id="boutique-title">A women's fashion boutique in Beckenham, Christchurch</h2>
+        <span class="rule" aria-hidden="true"></span>
+        <p class="drop">Made in the Shade is a women's clothing store on Colombo Street in Beckenham, Christchurch. The boutique brings together a wide selection of women's fashion labels under one roof, so you can browse many favourite names in a single visit.</p>
+        <p>On the rails you'll find labels including Matisse, Blackstone, Anne Mardell, Mardee, Revue, Vue, Optimum, Not Your Daughters Jeans, Pingpong, Annabel's Closet, Weekend, Lisette, L'Officiel, Bittermoon and Zaket &amp; Plover, along with the winter and summer 2026 collections listed below.</p>
+        <p>To ask about a label, a collection or a particular piece, call the shop on <a href="tel:+6439821759">03 982 1759</a>, call or text the mobile on <a href="tel:+64274120086">027 412 0086</a>, or email <a href="mailto:ali@madeintheshadefashions.co.nz">ali@madeintheshadefashions.co.nz</a>.</p>
+      </div>
+      <aside class="panel" aria-labelledby="glance-title">
+        <h3 id="glance-title">At a glance</h3>
+        <dl>
+          <dt>Location</dt>
+          <dd>151A Colombo Street<br>Beckenham, Christchurch 8023<br>New Zealand</dd>
+          <dt>Hours</dt>
+          <dd>Mon &ndash; Fri 9.30am &ndash; 5.30pm<br>Sat 10am &ndash; 4pm</dd>
+          <dt>Phone</dt>
+          <dd><a href="tel:+6439821759">03 982 1759</a><br><a href="tel:+64274120086">027 412 0086</a></dd>
+          <dt>Email</dt>
+          <dd><a href="mailto:ali@madeintheshadefashions.co.nz" style="overflow-wrap:anywhere">ali@madeintheshadefashions.co.nz</a></dd>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section collections" id="collections" aria-labelledby="collections-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="tab texture">Collections</span>
+        <h2 id="collections-title">Which 2026 collections are featured?</h2>
+        <p>Made in the Shade features lookbooks from these labels' 2026 winter and summer ranges. Call or email the boutique to ask about any of them.</p>
+      </div>
+      <div class="coll-grid">
+        <article class="coll" aria-labelledby="winter-title">
+          <div class="coll-top texture">
+            <h3 id="winter-title">2026 Winter Fashions</h3>
+            <p>Lookbooks</p>
+          </div>
+          <ul>
+            <li>Vassalli <span>Winter 2026</span></li>
+            <li>Dress Addict <span>Winter 2026</span></li>
+            <li>Royal Merino <span>Winter 2026</span></li>
+            <li>Libertine <span>Winter 2026</span></li>
+            <li>Marco Polo <span>Winter 2026</span></li>
+            <li>Naturals by O&amp;J <span>Winter 2026</span></li>
+            <li>Toorallie <span>Winter 2026</span></li>
+          </ul>
+        </article>
+        <article class="coll" aria-labelledby="summer-title">
+          <div class="coll-top texture">
+            <h3 id="summer-title">2026 Summer Fashions</h3>
+            <p>Lookbooks</p>
+          </div>
+          <ul>
+            <li>Blackstone <span>Summer 2026</span></li>
+            <li>Vassalli <span>Summer 2026</span></li>
+            <li>Country Laine <span>Summer 2026</span></li>
+            <li>Toorallie <span>Summer 2026 Organic Cotton</span></li>
+            <li>Toorallie <span>Summer 2026 Knitwear</span></li>
+            <li>Naturals by O&amp;J <span>Summer 2026</span></li>
+          </ul>
+        </article>
+      </div>
+      <div class="spotlights">
+        <article class="spot">
+          <div class="spot-mark vassalli" aria-hidden="true">VASSALLI</div>
+          <div>
+            <h3>Vassalli Summer 2026</h3>
+            <p>Featured on the boutique's front page.</p>
+          </div>
+        </article>
+        <article class="spot">
+          <div class="spot-mark"><img src="assets/logo.jpg" alt="Bittermoon logo" width="117" height="33"></div>
+          <div>
+            <h3>Bittermoon The Carly Dress</h3>
+            <p>Featured on the boutique's front page.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="labels" aria-labelledby="labels-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="tab texture">Labels</span>
+        <h2 id="labels-title">Which fashion labels does Made in the Shade stock?</h2>
+        <p>Women's fashion labels you'll find at the boutique on Colombo Street, Christchurch:</p>
+      </div>
+      <ul class="labels-wall" aria-label="Fashion labels">
+        <li>Matisse</li>
+        <li class="dark">Blackstone</li>
+        <li>Anne Mardell</li>
+        <li>Mardee</li>
+        <li>Revue</li>
+        <li>Vue</li>
+        <li>Optimum</li>
+        <li>Not Your Daughters Jeans</li>
+        <li>Pingpong</li>
+        <li>Annabel's Closet</li>
+        <li>Weekend</li>
+        <li>Lisette</li>
+        <li>L'Officiel</li>
+        <li class="logo-tile"><img src="assets/logo.jpg" alt="Bittermoon" width="117" height="33"></li>
+        <li>Zaket &amp; Plover</li>
+        <li class="dark">Vassalli</li>
+        <li>Marco Polo</li>
+        <li>Zsiska</li>
+        <li>Naturals by O&amp;J</li>
+        <li>Claire Desjardins</li>
+        <li>Libertine</li>
+        <li>Country Laine</li>
+        <li>Sandwich</li>
+        <li>Trisha Tyler</li>
+        <li>Toorallie</li>
+        <li>Royal Merino</li>
+        <li>Dress Addict</li>
+      </ul>
+      <p class="labels-note">Looking for a particular label? Call <a href="tel:+6439821759">03 982 1759</a> or email <a href="mailto:ali@madeintheshadefashions.co.nz">ali@madeintheshadefashions.co.nz</a> before you visit.</p>
+    </div>
+  </section>
+
+  <section class="section visit texture on-dark" id="visit" aria-labelledby="visit-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="visit-title">Visit the boutique in Beckenham, Christchurch</h2>
+        <p>Find us at 151A Colombo Street, or get in touch by phone, email or Facebook.</p>
+      </div>
+      <div class="visit-grid">
+        <div class="vcard">
+          <h3>Location</h3>
+          <address>
+            <p>151A Colombo Street<br>Beckenham<br>Christchurch 8023<br>New Zealand</p>
+          </address>
+          <a class="btn btn-ghost-light" href="https://www.google.com/maps/search/?api=1&amp;query=151A+Colombo+Street%2C+Beckenham%2C+Christchurch+8023" target="_blank" rel="noopener">Get directions<span class="sr-only"> (opens Google Maps)</span></a>
+        </div>
+        <div class="vcard">
+          <h3>Hours</h3>
+          <ul class="hours">
+            <li><span>Monday &ndash; Friday</span><span>9.30am &ndash; 5.30pm</span></li>
+            <li><span>Saturday</span><span>10am &ndash; 4pm</span></li>
+          </ul>
+        </div>
+        <div class="vcard">
+          <h3>Contact</h3>
+          <p class="stack"><a class="big" href="tel:+6439821759">03 982 1759</a><span class="sub">Boutique</span></p>
+          <p class="stack"><a class="big" href="tel:+64274120086">027 412 0086</a><span class="sub">Mobile</span></p>
+          <p class="stack"><a class="line-link" href="mailto:ali@madeintheshadefashions.co.nz">ali@madeintheshadefashions.co.nz</a></p>
+          <p class="stack" style="margin:0"><a class="line-link" href="https://www.facebook.com/377518835444207" target="_blank" rel="noopener">Follow us on Facebook<span class="sr-only"> (opens in a new tab)</span></a></p>
+        </div>
+      </div>
+      <div class="visit-actions">
+        <a class="btn btn-light" href="tel:+6439821759">Call the boutique</a>
+        <a class="btn btn-ghost-light" href="mailto:ali@madeintheshadefashions.co.nz?subject=Enquiry%20for%20Made%20in%20the%20Shade">Send an email</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="questions" aria-labelledby="questions-title">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="tab texture">Questions</span>
+        <h2 id="questions-title">Questions customers ask</h2>
+      </div>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h3>Where is Made in the Shade in Christchurch?</h3>
+          <p>The boutique is at 151A Colombo Street, Beckenham, Christchurch 8023. <a href="https://www.google.com/maps/search/?api=1&amp;query=151A+Colombo+Street%2C+Beckenham%2C+Christchurch+8023" target="_blank" rel="noopener">Open it in Google Maps<span class="sr-only"> (opens in a new tab)</span></a>.</p>
+        </div>
+        <div class="faq-item">
+          <h3>When is the boutique open?</h3>
+          <p>Monday to Friday 9.30am &ndash; 5.30pm, and Saturday 10am &ndash; 4pm.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What kind of store is Made in the Shade?</h3>
+          <p>It is a women's fashion boutique, a clothing store carrying labels such as Matisse, Blackstone, Anne Mardell, Lisette, L'Officiel, Bittermoon and Vassalli.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How can I contact the boutique?</h3>
+          <p>Phone <a href="tel:+6439821759">03 982 1759</a> or <a href="tel:+64274120086">027 412 0086</a>, email <a href="mailto:ali@madeintheshadefashions.co.nz">ali@madeintheshadefashions.co.nz</a>, or message us on <a href="https://www.facebook.com/377518835444207" target="_blank" rel="noopener">Facebook<span class="sr-only"> (opens in a new tab)</span></a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer texture on-dark">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#top" aria-label="Made in the Shade, back to top">
+          <span class="brand-name">Made in the Shade</span>
+          <span class="brand-tag">Fashion Boutique &middot; Christchurch</span>
+        </a>
+        <address>151A Colombo Street, Beckenham,<br>Christchurch 8023, New Zealand</address>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li><a href="tel:+6439821759">Ph: 03 982 1759</a></li>
+          <li><a href="tel:+64274120086">Mob: 027 412 0086</a></li>
+          <li><a href="mailto:ali@madeintheshadefashions.co.nz">ali@madeintheshadefashions.co.nz</a></li>
+          <li><a href="https://www.facebook.com/377518835444207" target="_blank" rel="noopener">Facebook<span class="sr-only"> (opens in a new tab)</span></a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="#boutique">Boutique</a></li>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#labels">Labels</a></li>
+          <li><a href="#visit">Visit &amp; hours</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>&copy; 2026 Made in the Shade, Christchurch. Mon&ndash;Fri 9.30am&ndash;5.30pm &middot; Sat 10am&ndash;4pm</p>
+      <p>Website by Tova Digital</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var toggle = document.querySelector('.menu-toggle');
+  var nav = document.getElementById('primary-nav');
+  if (!toggle || !nav) return;
+  function closeMenu(){
+    nav.classList.remove('open');
+    toggle.setAttribute('aria-expanded','false');
+  }
+  toggle.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function(e){
+    if (e.target.closest('a')) closeMenu();
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && nav.classList.contains('open')) { closeMenu(); toggle.focus(); }
+  });
+  window.addEventListener('resize', function(){
+    if (window.innerWidth > 900) closeMenu();
+  });
+})();
+</script>
+</body>
+</html>
